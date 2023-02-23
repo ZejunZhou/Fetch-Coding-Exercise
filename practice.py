@@ -5,11 +5,15 @@ import pandas as pd
 input = sys.argv[1:]
 try:
     point_spent = int(input[0])
+    if point_spent < 0:
+        raise ValueError("Spending points can't be negative")
+
     with open(input[1]) as f:
         df = pd.read_csv(f)
 
 except Exception as e:
     print(e)
+    sys.exit()
 
 
 # sort rows of dataframe based on timestamp
