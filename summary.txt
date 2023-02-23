@@ -1,0 +1,38 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+   I have chosen Python and its module Pandas in completing the coding exercise.
+
+   To me, Python is syntax friendly to program. As it allows me to work on high-level programming,
+   I have no need to consider low-level properties such as pointers and addresses.
+
+   One of the benefit that python has brought is its community source. Pandas is a great module to work
+   with data in data fetching and visualization. It is also built from the Numpy module, which was originally written in C. 
+   In this case, it is fast to compile as C is a fast compile language
+
+
+2. What are the advantages and disadvantages of your solution?
+
+   The advantages of my solution is the complexity. The overall complexity of my solution is O(nlogn). 
+   However, the program is not running as fast as other compiler languages. As python is an interpreter language,
+   it needs the python interpreter program to run it. Also, the feature of automatic garbage collection requires more
+   memory than manually memory free.
+
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+   My favorite personal project is my ChatPGT project. Using node.js, express.js and https module, I am
+   able to post customer’s information to Mailchimp's Servers via their API. I am still working on this project
+   and plan to add features of requesting Weather information through OpenWeather API. In the future, I want to
+   train the model based on several weather features through Pytorch so the PGT can predict the weather for the customer.
+
+   I consider it as my favorite project because I have understood the structure of an application. My server needs to talk 
+   to multiple servers through API and networks, which made me understand the needs of cooperation between applications. Also, I have
+   learned it is important to consider the format of information that I am collecting, which helps me to make decision of using different
+   types of database.
+
+    My current challenge is that there are still several technologies that I need to learn. I plan to optimize my front-end using React.js and 
+    build my database through moogo.db. I am still on track of learning from Udemy, which provides a lot of fantastic tutorials to me.
+
+
+
+
